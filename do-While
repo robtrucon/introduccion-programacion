@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        //edad usuario
+        int edad = 18;
+
+        do {
+            System.out.println("Ingrese su edad");
+        }
+        while (edad < 18);
+    }
+}
