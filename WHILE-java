@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        //delaro variable a evaluar
+        int num = 18;
+        //edad usuario
+        int edad = 27;
+        while (edad <= num){  // el bloque de codigo se seguira repitiendo hasta que sea falso.
+            System.out.println("ingrese un valor correcto");
+
+        }
+    }
+    }
