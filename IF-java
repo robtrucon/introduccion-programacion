@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        //año actual
+        int aA = 2023;
+        //año de nacimiento
+        int aN = 1996;
+        //Comprobar edad
+        int edad = aA - aN;
+
+        if(edad >= 18){
+            System.out.println("edad: "+edad);
+            System.out.printf("Ya tienes permiso para beber y fumar");
+        }
+
+    }
+}
