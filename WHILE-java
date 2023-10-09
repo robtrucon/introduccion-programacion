@@ -4,7 +4,7 @@ public class Main {
         int num = 18;
         //edad usuario
         int edad = 27;
-        while (edad <= num){  // el bloque de codigo se seguira repitiendo hasta que sea falso.
+        while (edad <= num){  // el bloque de codigo se seguira repitiendo(de manera infinita) hasta que sea falso.
             System.out.println("ingrese un valor correcto");
 
         }
