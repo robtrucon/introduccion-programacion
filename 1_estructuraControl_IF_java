@@ -3,8 +3,6 @@
   Si es falsa se finaliza el programa y se muestra mensaje de despedida.
 */
 
-public class Main {
-    public static void main(String[] args) {
         //año actual
         int aA = 2023;
         //año de nacimiento
@@ -19,6 +17,3 @@ public class Main {
         }
         //Si la condicion evaluada es falsa se finaliza el programa y muestra este mensaje
         System.out.println("Nos vemos bro, por tu edad dan carcel!");
-
-    }
-}
