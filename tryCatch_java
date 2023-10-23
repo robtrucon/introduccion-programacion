@@ -1,0 +1,7 @@
+try {
+    // Código que podría lanzar una excepción
+    int resultado = 10 / 0;  // Esto generará una excepción de división por cero
+} catch (ArithmeticException e) {
+    // Manejo de la excepción
+    System.out.println("Se ha producido una excepción: " + e.getMessage());
+}
