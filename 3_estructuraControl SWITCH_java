@@ -1,0 +1,25 @@
+    /*
+    Estructura de Control Switch en Java que simula el funcionamiento de un semáforo.
+    Usaremos un valor numérico para representar los diferentes estados del semáforo:
+    Donde 0 representa "rojo", 1 = "amarillo" y 2 = "verde".
+    El switch se utiliza para determinar qué acción tomar en función del estado del semáforo
+    */
+
+        //  estadoSemaforo representa el estado actual del semáforo.
+        int estadoSemaforo = 2;
+
+        // se usa switch para evaluar el estado del semaforo
+        switch (estadoSemaforo) {
+            case 0:     // caso 0 "si es 0 hace lo soguiente"
+                // codigo para el caso 0
+                System.out.println("El semáforo está en ROJO. Debes detenerte.");
+                break;  // se usa para salir del bloque
+            case 1:
+                System.out.println("El semáforo está en AMARILLO. Prepárate para detenerte.");
+                break;
+            case 2:
+                System.out.println("El semáforo está en VERDE. Puedes avanzar.");
+                break;
+            default:    // para el caso por defecto "si ninguno de los casos fue correcto"
+                System.out.println("Estado del semáforo desconocido. Verifica el semáforo.");
+        }
