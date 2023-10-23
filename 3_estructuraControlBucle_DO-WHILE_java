@@ -1,0 +1,28 @@
+        /*
+        Programa para dar acceso a X contenido, hace una pregunta tipo trivia.
+        Si el usuario no responde de manera correcta el programa seguirá preguntanto de manera infinita.
+        Al responder de manera correcta, el programa da acceso.
+        */
+
+        //delaro variable a evaluar o bien en la condicion se puede colocar el año
+        int num = 1936;
+        //declaro variable para pedir edad a usuario
+        int year;
+
+        do {// ejecuta primero esta parte de codigo
+            System.out.println("\nPara tener acceso al siguiente contenido debes responder la siguiente trivia: \n");
+            System.out.println("P.D.: No te daré acceso hasta que respondas de manera correcta!\n");
+            System.out.println("Allan Turing es considerado como uno de los padres de la ciencia de la computación.");
+            System.out.println("Responde: ¿En qué año fue publicado su estudio Los números computables? R// ");
+
+            //Pido por teclado el año
+            Scanner sc = new Scanner(System.in);
+            year = Integer.parseInt(sc.nextLine());
+        }
+            // si la condicion es verdadera vuelve a repetir el codigo anterior
+        while (year != 1936);
+        {   // si la condicion es falsa entonces hace este bloque de codigo
+            //Texto que se muestra cuando condicion evaluada sea falsa (año sea igual a num)
+            System.out.println("\nCorrecto! Bien hecho: maquina, crack, genio, eres mi heroe... \n");
+            System.out.println("¡Adelante ya puedes acceder!");
+        }
