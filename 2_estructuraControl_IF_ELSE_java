@@ -1,0 +1,22 @@
+        /*
+          Programa que comprueba si la edad ingresada es legal para beber y fumar.
+          Si es veradadera muestra mensaje de permiso para hacerlo.
+          Si es falsa muestra mensaje que no de forma motivacional.
+        */
+
+        // se define año actual
+        int yearActual = 2023;
+        // se define año de nacimiento - como estatico
+        int yearNacimiento = 2006;
+        // opercaion para comprobar edad
+        int edad = yearActual - yearNacimiento;
+
+        if(edad >= 18){//condicion a evaluar "¿edad es igual o mayor que 18?"
+        //si es true se ejecuta este codigo
+        System.out.println("Tu edad es: "+edad);    // imprime edad
+        System.out.printf("Ya tienes permiso para beber y fumar");              // imprime mensaje - si 
+
+        } else{//si es false se ejecuta el siguiente codigo
+        System.out.println("Tu edad es: "+edad);    // imprime edad
+        System.out.println("No jodas! Aún no deberías beber ni fumar hij@");    // imprime mensaje - no
+        }
