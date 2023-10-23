@@ -1,0 +1,20 @@
+        /*
+        Programa que pide por teclado edad al usuario y la compara con edad legal para poder entrar a una disco.
+        Si el usuario coloca la edad incorrecta lanza un mensaje pecualiar indicando que esta mal.
+        Dicho mensaje se mostrara de manera infinita para que usuario lo memorice xd
+        */
+
+        //declaro e inicializo variable para pedir edad a usuario
+        int edad = 0;
+
+        System.out.println("\nDigita tu edad para comprobar si puedes ingresar: ");
+        //Pido por teclado edad del usuario
+        Scanner sc = new Scanner(System.in);    //se crea un objeto de la clase Scanner llamado sc  System.in se refiere a la entrada estándar
+        edad = Integer.valueOf(sc.nextLine());  //se lee una línea de texto ingresada por el usuario desde la consola utilizando el objeto sc.
+
+        // Si condicion es verdadera: el bucle se repite
+        while (edad < 18){
+            System.out.println("\nNo puedes pasar bro!, la edad para hacerlo es 18, vuelve a la escuela.\n");
+        }
+        // Si condicion es falsa: el ciclo termina y se muestra mensaje
+        System.out.println("\nOk!, Ya tienes edad para hacerlo!\n");
